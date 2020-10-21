@@ -42,7 +42,6 @@
     }
 
     .nav-menu {
-        display: none;
         flex-basis: 100%;
         font-size: 20px;
     }
