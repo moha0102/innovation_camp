@@ -21,7 +21,7 @@ window.onresize = function() {
   } else {
     menu.style.display = "none";
     nav.style.backgroundColor = '#F6F7EB';
-    document.documentElement.style.overflow = 'hidden';
+    document.documentElement.style.overflow = 'visible';
     bars.style.color = 'black';
   }
 }
