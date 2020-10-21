@@ -2,6 +2,7 @@ const menu = document.getElementById('nav-menu');
 const nav = document.getElementById('nav');
 const bars = document.getElementById('bars');
 
+menu.style.display = "none";
 
 window.onresize = function() {
   menu.style.display = "none";
