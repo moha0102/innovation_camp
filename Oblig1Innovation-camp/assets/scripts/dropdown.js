@@ -6,6 +6,7 @@ menu.style.display = "none";
 
 window.onresize = function() {
   menu.style.display = "none";
+  document.documentElement.style.overflow = 'hidden';
   if (window.outerWidth > 760) {
     menu.style.display = "flex";
     document.documentElement.style.overflow = 'visible';
