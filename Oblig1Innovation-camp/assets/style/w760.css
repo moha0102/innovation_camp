@@ -1,4 +1,4 @@
-@media only screen and (min-width: 400px) and (max-width: 630px) {
+@media only screen and (min-width: 400px) and (max-width: 760px) {
     * {
         font-family: sans-serif;
     }
@@ -97,14 +97,14 @@
     }
 
     .info-challenge h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     
     .info-challenge p {
         padding: 20px 20px 20px 0px;
         line-height: 1.5;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     
