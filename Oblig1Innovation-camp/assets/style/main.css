@@ -24,6 +24,12 @@ html {
     z-index: 1;
 }
 
+.logo-name {
+    padding: 10px;
+    height: 100px;
+    width: 110px;
+}
+
 .nav-logo {
     font-size: 24px;
     text-transform: uppercase;
@@ -41,6 +47,7 @@ html {
     display: flex;
     justify-content: flex-end;
     flex: 3;
+    
 }
 
 .nav-menu ul {
