@@ -8,61 +8,69 @@
     }
 
     .nav {
-        width: 100%;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start;
+        flex-direction: column;
         align-items: center;
     }
 
-    .nav-logo {
-        margin: 10px;
-        display: flex;
-        flex: 1;
-        font-size: 18px;
-    
-    }
-
     .logo-name {
-        padding: 10px;
+        padding: 0px;
         height: 50px;
         width: 60px;
     }
+    
+    .nav-logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex: 1;
+    }
 
     .nav-menu {
-        flex-basis: 100%;
-        font-size: 20px;
-    }
-
-    .nav-menu ul  {
-        display:flex;
+        margin: 20px;
+        display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
+        flex: 3;
         width: 100%;
-        height: 94vh;
-        position: absolute;
-        background-color:  #212A3B;
-        text-align: center; 
-        z-index: 1;
     }
-
+    
+    .nav-menu ul {
+        text-align: center;
+        padding-left: 50px;
+        
+        
+    }
+    
     .nav-menu ul li {
-        margin: 0px;
-        padding: 20px;
         display: block;
+        list-style: none;
+        padding-top: 15px;
+        
     }
-
-    .nav-menu ul li:nth-child(odd) {
-        border-top-style: solid;
-        border-bottom-style: solid;
-        border-width: 1px;
-        border-color: white;
-    }
-
+    
     .nav-menu ul li a {
-        color: white;
+        font-size: 24px;
+        text-decoration-line: none;
+    
+    }
 
+
+
+    .scroll-button {
+        position: absolte;;
+    }
+    
+    .scroll-button .scroll-down {
+        border: none;
+        background-color: transparent;
+        border-style: solid;
+        border-width: 2px;
+        padding: 20px;
+        font-size: 18px;
+        border-radius: 5px;
+        text-decoration: none;
+        cursor: pointer;
     }
 
 
