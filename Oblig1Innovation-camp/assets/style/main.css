@@ -38,12 +38,8 @@ html {
 
 }
 
-.phone-icon {
-    display: none;
-}
-
 .nav-menu {
-    font-size: 20px;
+    font-size: 22px;
     display: flex;
     justify-content: flex-end;
     flex: 3;

@@ -30,19 +30,7 @@
         width: 60px;
     }
 
-
-    .phone-icon {
-        margin: 10px;
-        display: block;
-        text-align: right;
-        flex: 1;
-        font-size: 18px;
-        cursor: pointer;
-        z-index: 1;
-    }
-
     .nav-menu {
-        display: none;
         flex-basis: 100%;
         font-size: 20px;
     }
