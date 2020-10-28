@@ -30,15 +30,13 @@
         margin: 20px;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: center;
         flex: 3;
         width: 100%;
     }
     
     .nav-menu ul {
         text-align: center;
-        padding-left: 50px;
-        
         
     }
     
@@ -46,33 +44,28 @@
         display: block;
         list-style: none;
         padding-top: 15px;
-        
+        padding-bottom: 15px;
+
+    }
+
+    .nav-menu ul li:nth-child(odd) {
+        display: block;
+        list-style: none;
+        padding-top: 15px;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-width: 1px;
     }
     
     .nav-menu ul li a {
-        font-size: 24px;
+        font-size: 20px;
         text-decoration-line: none;
-    
+        padding-left: 50px;
     }
-
-
 
     .scroll-button {
-        position: absolte;;
+        display: none;
     }
-    
-    .scroll-button .scroll-down {
-        border: none;
-        background-color: transparent;
-        border-style: solid;
-        border-width: 2px;
-        padding: 20px;
-        font-size: 18px;
-        border-radius: 5px;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
 
     .main-body {
         color: yellow;
