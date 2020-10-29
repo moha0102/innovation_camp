@@ -1,6 +1,6 @@
 @media only screen and (max-width: 275px) {
     * {
-        font-family: sans-serif;
+        font-family: 'Arvo';
     }
 
     html {
@@ -15,8 +15,8 @@
 
     .logo-name {
         padding: 0px;
-        height: 50px;
-        width: 60px;
+        height: 30px;
+        width: 40px;
     }
     
     .nav-logo {
@@ -43,22 +43,22 @@
     .nav-menu ul li {
         display: block;
         list-style: none;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
 
     }
 
     .nav-menu ul li:nth-child(odd) {
         display: block;
         list-style: none;
-        padding-top: 15px;
+        padding-top: 5px;
         border-top-style: solid;
         border-bottom-style: solid;
         border-width: 1px;
     }
     
     .nav-menu ul li a {
-        font-size: 20px;
+        font-size: 14px;
         text-decoration-line: none;
         padding-left: 50px;
     }

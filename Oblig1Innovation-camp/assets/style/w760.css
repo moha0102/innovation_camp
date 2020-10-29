@@ -1,6 +1,6 @@
 @media only screen and (min-width: 400px) and (max-width: 760px) {
     * {
-        font-family: sans-serif;
+        font-family: 'Arvo';
     }
 
     html {
@@ -92,7 +92,7 @@
     
     .info-challenge p {
         padding: 20px 20px 20px 0px;
-        line-height: 1.5;
+        line-height: 1.2;
         font-size: 16px;
     }
 
