@@ -144,23 +144,8 @@ html {
 }
 
 .footer {
-    display: flex;
-    height: 20vh;
     background-color: #212A3B;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.footer div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #F6F7EB;
-    font-size: 18px;
-    height: 100px;
-    width: 100px;
-    border-radius: 100%;
-    color: white;
+    height: 20vh;
 }
 
 .footer div:hover {
@@ -170,7 +155,6 @@ html {
 .facing-challenge {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     height:69.8vh;
 }
 

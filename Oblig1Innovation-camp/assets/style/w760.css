@@ -114,24 +114,41 @@
     }
 
     .footer {
-        display: flex;
-        height: 25vh;
         background-color: #212A3B;
-        align-items: center;
-        justify-content: space-evenly;
+
     }
     
-    .footer div {
+
+
+    .facing-challenge {
         display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #F6F7EB;
-        font-size: 16px;
-        height: 80px;
-        width: 80px;
-        border-radius: 100%;
-        color: white;
+        flex-direction: column;
+        min-height:69.8vh;
     }
+    
+    .facing-challenge div {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 20px;
+        background-color: #F6F7EB;
+    }
+
+    .facing-challenge div:nth-child(odd){
+        align-items: center;
+    }
+    
+    .facing-challenge div img {
+        width: 70%;
+        height: 80%;
+    }
+    
+    .facing-challenge p {
+        padding: 20px 20px 20px 0px;
+        line-height: 1.2;
+        font-size: 14px;
+    }
+    
 
 
 }
