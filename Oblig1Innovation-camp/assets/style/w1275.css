@@ -1,0 +1,46 @@
+@media only screen and (min-width: 760px) and (max-width: 1275px) {
+    .solutions p {
+        font-size: 15px;
+    }
+
+    .solutions h1 {
+        font-size: 16px;
+        
+    }
+
+    .solutions div img {
+        width: 100%;
+        height: 25%;
+    }
+
+    .technology h1 {
+        font-size: 16px;
+    }
+    
+    .technology p{
+        font-size: 15px;
+    }
+
+    .visualization h1 {
+        font-size: 16px;
+    }
+    
+    .visualization p{
+        font-size: 15px;
+    }
+    
+    .visualization div img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .goal h1 {
+        font-size: 16px;
+    }
+    
+    .goal p {
+        font-size: 15px;
+    }
+
+
+}

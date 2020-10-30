@@ -43,22 +43,22 @@
     .nav-menu ul li {
         display: block;
         list-style: none;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
 
     }
 
     .nav-menu ul li:nth-child(odd) {
         display: block;
         list-style: none;
-        padding-top: 10px;
+        padding-top: 5px;
         border-top-style: solid;
         border-bottom-style: solid;
         border-width: 1px;
     }
     
     .nav-menu ul li a {
-        font-size: 16px;
+        font-size: 13px;
         text-decoration-line: none;
         padding-left: 50px;
     }
@@ -114,16 +114,32 @@
     }
 
     .footer {
-        background-color: #212A3B;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        min-height: 20vh;
+        position: relative;
     }
 
-    .facing-challenge {
+    .footer div {
+        color: white;
+        width: 40%;
+        margin: 5px;
+    }
+
+    .footer div:last-child {
+        width: 100%;
+        text-align: center;
+    }
+
+    .facing-challenge, .solutions {
         display: flex;
         flex-direction: column;
         min-height:69.8vh;
     }
     
-    .facing-challenge div {
+    .facing-challenge div, .solutions div {
         display: flex;
         flex-direction: column;
         flex: 1;
@@ -131,20 +147,106 @@
         background-color: #F6F7EB;
     }
 
-    .facing-challenge div:nth-child(odd){
+    .facing-challenge div:nth-child(odd), .solutions div:nth-child(odd){
         align-items: center;
     }
     
-    .facing-challenge div img {
-        width: 70%;
-        height: 80%;
+    .facing-challenge div img, .solutions div img {
+        width: 75%;
+        height: 75%;
+    }
+
+    .facing-challenge h1, .solutions h1 {
+        font-size: 12px;
     }
     
-    .facing-challenge p {
+    .facing-challenge p, .solutions p {
         padding: 20px 20px 20px 0px;
         line-height: 1.2;
-        font-size: 14px;
+        font-size: 10px;
     }
+
+    .facing-challenge p {
+        padding: 10px 20px 20px 0px;
+        line-height: 1;
+        font-size: 11px;
+    }
+
+    .facing-challenge ul li, .solutions ul li {
+        font-size: 10px;
+    }
+    
+    .foot-menu {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+
+    .foot-menu a{
+        color: white;
+        font-size: 10px;
+        text-decoration: none;
+    }
+    
+    .info p, .info p strong,.info a {
+        font-size: 9px;
+        color: white;
+    }
+    
+    .copyright p {
+        font-size: 8px;
+        color: white;
+    }
+
+    .visualization {
+        flex-direction: column;
+    }
+
+    .solutions div:first-child {
+        display: none;
+    }
+
+    .solutions p {
+        font-size: 10px;
+    }
+
+    .solutions h1 {
+        font-size: 13px;
+        
+    }
+
+    .technology h1 {
+        font-size: 13px;
+    }
+    
+    .technology p{
+        font-size: 10px;
+    }
+
+    .visualization h1 {
+        font-size: 13px;
+    }
+    
+    .visualization p{
+        font-size: 10px;
+    }
+    
+    .visualization div img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .goal h1 {
+        font-size: 13px;
+    }
+    
+    .goal p {
+        font-size: 10px;
+    }
+
+}
 
 
 }
